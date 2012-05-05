@@ -1,0 +1,57 @@
+<plugin name='glue' version='1.3.1' grailsVersion='1.3.1 &gt; *'>
+  <author>Ralf Bensmann</author>
+  <authorEmail>grails@bensmann.com</authorEmail>
+  <title>Glue -- GORM and scaffolding on steroids</title>
+  <description>Several helpers for building Grails applications.</description>
+  <documentation>http://grails.org/glue+Plugin</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>DataSource</resource>
+    <resource>Glue010SecurityFilters</resource>
+    <resource>Glue015ContextFilters</resource>
+    <resource>Glue020ActionFilters</resource>
+    <resource>Glue030ParamsFilters</resource>
+    <resource>GlueBootStrap</resource>
+    <resource>GlueConfig</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.bensmann.glue.GlueController</resource>
+    <resource>com.bensmann.glue.GlueSecurityController</resource>
+    <resource>com.bensmann.glue.GlueAssoc</resource>
+    <resource>com.bensmann.glue.GlueMimeType</resource>
+    <resource>com.bensmann.glue.auth.GlueRole</resource>
+    <resource>com.bensmann.glue.auth.GlueUser</resource>
+    <resource>com.bensmann.glue.context.GlueContext</resource>
+    <resource>com.bensmann.glue.GlueConfigurationService</resource>
+    <resource>com.bensmann.glue.GlueContextService</resource>
+    <resource>com.bensmann.glue.GlueControllerService</resource>
+    <resource>com.bensmann.glue.GlueCrudService</resource>
+    <resource>com.bensmann.glue.GlueDomainClassService</resource>
+    <resource>com.bensmann.glue.GlueFileService</resource>
+    <resource>com.bensmann.glue.GlueGrailsService</resource>
+    <resource>com.bensmann.glue.GlueLinkService</resource>
+    <resource>com.bensmann.glue.GlueMimeTypeService</resource>
+    <resource>com.bensmann.glue.GlueNameService</resource>
+    <resource>com.bensmann.glue.GlueOdiseeService</resource>
+    <resource>com.bensmann.glue.GlueTagLibService</resource>
+    <resource>com.bensmann.glue.GlueViewService</resource>
+    <resource>com.bensmann.glue.GlueWidgetService</resource>
+    <resource>com.bensmann.glue.GlueWsClientService</resource>
+    <resource>com.bensmann.glue.GroovyService</resource>
+    <resource>com.bensmann.glue.GlueCrudEditorTagLib</resource>
+    <resource>com.bensmann.glue.GlueCrudTagLib</resource>
+    <resource>com.bensmann.glue.GlueFormTagLib</resource>
+    <resource>com.bensmann.glue.GlueSecurityTagLib</resource>
+    <resource>com.bensmann.glue.GlueWidgetTagLib</resource>
+    <resource>com.bensmann.glue.GlueBuilder</resource>
+    <resource>com.bensmann.glue.GlueConstants</resource>
+    <resource>com.bensmann.glue.GlueScaffolder</resource>
+    <resource>com.bensmann.glue.GlueWidgetTestCategory</resource>
+  </resources>
+  <dependencies>
+    <plugin name='controllers' version='1.3.7' />
+    <plugin name='core' version='1.3.7' />
+    <plugin name='hibernate' version='1.3.7' />
+    <plugin name='cxf' version='0.5.1 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>
